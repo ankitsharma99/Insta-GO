@@ -52,18 +52,17 @@
     </RelativeLayout>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/downloadReel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/downloadReel"
-        android:text="Download Reel"
-        android:textAllCaps="false"
-        android:textSize="13sp"
-        android:background="@drawable/button_bg"
+        android:layout_alignParentBottom="true"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_alignParentBottom="true"
         android:layout_marginBottom="10dp"
-        >
+        android:background="@drawable/button_bg"
+        android:text="Download Reel"
+        android:textAllCaps="false"
+        android:textSize="13sp">
     </androidx.appcompat.widget.AppCompatButton>
 
 
